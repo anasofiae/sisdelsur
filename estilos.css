@@ -17,8 +17,8 @@ li {
 }
 
 h3 {
-    text-align: center;
     color: #30348B !important;
+    text-align: center;
     text-transform: uppercase;
     font-weight: bold !important;
     font-size: 22px !important;
@@ -32,11 +32,6 @@ h3:hover {
     margin: auto;
     border-bottom: solid 3px #6D6E70;
     width: 60px !important;
-}
-
-.icono {
-    width: 26px;
-    color: #6A7BD3;
 }
 
 /*Seccion principal de páginas de productos, servicios y contacto*/
@@ -58,14 +53,15 @@ h3:hover {
     background-color: #090a23 !important;
     transition: all 1s ease;
 }
-#nav-logo{
-width: 80%!important;
+
+#nav-logo {
+    width: 80% !important;
 }
 
 header .nav-link {
     padding: 5px 12px !important;
     color: white !important;
-    font-weight: 500!important;
+    font-weight: 500 !important;
 }
 
 header .nav-item:hover {
@@ -95,6 +91,10 @@ footer a:hover {
     color: #6A7BD3;
 }
 
+.icono {
+    width: 28px;
+    color: #6A7BD3;
+}
 
 /* PÁGINA INICIO
 
@@ -137,7 +137,7 @@ h1 {
     }
 }
 
-/*SOBRE NOSOTROS*/
+/*SOBRE NOSOTROS INICIO*/
 
 h2 {
     color: #30348B !important;
@@ -161,7 +161,7 @@ h2 {
     text-align: center;
 }
 
-/*CARRUSEL*/
+/*CARRUSEL INICIO*/
 
 .carousel-inner {
     display: flex !important;
@@ -169,7 +169,7 @@ h2 {
 
 .carousel-item {
     margin-right: 0 !important;
-    flex: 0 0 33, 3% !important;
+    flex: 0 0 33.3% !important;
     display: block !important;
 }
 
@@ -189,8 +189,6 @@ h2 {
         padding: 1em !important;
     }
 }
-
-
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -242,7 +240,6 @@ h4 {
     margin-left: 10px;
 }
 
-
 .fi-ss-arrow-circle-right:hover {
     color: #6a7bd3;
 }
@@ -293,9 +290,7 @@ h5 {
     background-color: #6A7BD3;
 }
 
-
-/*Contacto página*/
-
+/*PÁGINA INICIO CONTACTO*/
 
 #contacto h1 {
     text-align: center;
@@ -314,12 +309,18 @@ main {
     padding: 30px 0px !important;
 }
 
+.i-contacto {
+    width: 36px;
+    color: #6A7BD3;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
 /*Form*/
 
 input,
 textarea {
     display: block;
-    /*border*/
     border-left-style: none;
     border-right-style: none;
     border-top-style: none;
@@ -345,13 +346,6 @@ form button {
 
 form button:hover {
     background-color: #090A23;
-}
-
-.i-contacto {
-    width: 36px;
-    color: #6A7BD3;
-    margin-top: 15px;
-    margin-bottom: 8px;
 }
 
 /*PÁGINA EXITO DE MENSAJE*/
@@ -407,9 +401,6 @@ h6 {
     color: #30348B !important;
     font-size: 20px !important;
 }
-
-
-
 
 /*PÁGINA PRODUCTOS*/
 

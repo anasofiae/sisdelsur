@@ -21,18 +21,19 @@
 </head>
 
 <body>
-    <header class="navbar navbar-expand-md navbar-dark fixed-top p-3" id="menu">
+    <header id="menu" class="navbar navbar-expand-md navbar-dark fixed-top py-3 px-1 p-sm-3">
         <nav class="container-fluid justify-content-between">
-            <a class="navbar-brand" href="index.html"><img class="d-block ms-2" src="img/sds_logotipo.png"
-                    alt="Logo Sistemas del Sur"></a>
+            <a class="navbar-brand" href="index.html">
+                <img id="nav-logo" class="d-block ms-md-2" src="img/sds_logotipo.png" alt="Logo Sistemas del Sur">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div id="navbarNav" class="collapse navbar-collapse">
                 <ul class="navbar-nav w-100 justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link " href="index.html">Inicio</a>
+                        <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#nosotros">Nosotros</a>
@@ -55,13 +56,13 @@
     </section>
     <main class="container-fluid">
         <div class="row align-items-center justify-content-around">
-            <div class="col-lg-4 mb-5 mb-lg-0" id="ficha-contacto">
-                <img src="img/reloj-nueve.svg" alt="reloj icono" title="reloj icono" class="i-contacto">
+            <div id="ficha-contacto" class="col-lg-4 mb-5 mb-lg-0">
+                <img class="i-contacto" src="img/reloj-nueve.svg" alt="reloj icono" title="reloj icono">
                 <p>Lunes a viernes<br><strong>9:00 a 18:00hrs.</strong></p>
-                <img src="img/telefono.svg" alt="icono telefono" title="Icono teléfono" class="i-contacto">
-                <p> +549 11 5996 2727<br><strong>Argentina</strong></p>
+                <img class="i-contacto" src="img/telefono.svg" alt="icono telefono" title="Icono teléfono">
                 <p>+598 95 890 616<br><strong>Uruguay</strong></p>
-                <img src="img/sobre.svg" alt="sobre correo icono" title="sobre correo icono" class="i-contacto">
+                <p>+549 11 5996 2727<br><strong>Argentina</strong></p>
+                <img class="i-contacto" src="img/sobre.svg" alt="sobre correo icono" title="sobre correo icono">
                 <p>info@sds.com.uy</p>
             </div>
             <form action="mail.php" method="POST" class="mt-5 mt-lg-0 col-lg-6">
@@ -91,6 +92,58 @@
             </form>
         </div>
     </main>
+    <footer class="container-fluid pt-3">
+        <div class="row justify-content-around px-5 py-3 mx-xl-5">
+            <ul class="col-lg-2 d-none d-lg-block">
+                <a href="index.html">
+                    <li>Inicio</li>
+                </a>
+                <a href="index.html#nosotros">
+                    <li>Nosotros</li>
+                </a>
+                <a href="productos.html">
+                    <li>Productos</li>
+                </a>
+                <a href="servicios.html">
+                    <li>Servicios</li>
+                </a>
+                <a href="contacto.html">
+                    <li>Contacto</li>
+                </a>
+            </ul>
+            <div class="col-md-5 col-lg-3">
+                <div class="row text-center text-lg-start fs-5 fs-lg-6">
+                    <div class="col-lg-2 align-self-start">
+                        <img class="icono" src="img/telefono.svg" alt="icono telefono" title="Icono teléfono">
+                    </div>
+                    <div class="col-lg-8 mt-3 mt-lg-0">
+                        <p> +598 95 890 616<br><strong>Uruguay</strong></p>
+                        <p> +549 11 5996 2727<br><strong>Argentina</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-3">
+                <div class="row text-center text-lg-start fs-5 fs-lg-6">
+                    <div class="col-lg-2 align-self-start">
+                        <img class="icono" src="img/reloj-nueve.svg" alt="reloj icono" title="reloj icono">
+                    </div>
+                    <p class="col-lg-8 mt-3 mt-lg-0">Lunes a viernes<br><strong>9:00 a 18:00hs.</strong></p>
+                    <div class="col-lg-2 align-self-start">
+                        <img class="icono" src="img/sobre.svg" alt="sobre correo icono" title="sobre correo icono">
+                    </div>
+                    <p class="col-lg-8 mt-3 mt-lg-0">info@sds.com.uy</p>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-3">
+                <img class="w-75 mx-auto d-block" src="img/sds_isologotipo.png" alt="Logotipo"
+                    title="Logotipo Sistemas del Sur">
+            </div>
+        </div>
+        <div class="row justify-content-between py-3 border-top border-secondary text-light ">
+            <small class="col-lg-4 text-center text-lg-start ms-lg-4">Sistemas del Sur 2023</small>
+            <small class="col-lg-4 text-center me-lg-4">Diseñado por DaDa Estudio</small>
+        </div>
+    </footer>
     <!--Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
