@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* GENERALES */
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+h3 {
+    text-align: center;
+    color: #30348B !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    font-size: 22px !important;
+}
+
+h3:hover {
+    color: #090A23 !important;
+}
+
+.borde {
+    margin: auto;
+    border-bottom: solid 3px #6D6E70;
+    width: 60px !important;
+}
+
+.icono {
+    width: 26px;
+    color: #6A7BD3;
+}
+
+/*Seccion principal de páginas de productos, servicios y contacto*/
+#sp-contacto,
+#sp-servicios,
+#sp-productos {
+    height: 50vh;
+    width: 100%;
+    background: url(img/relampago_cielo_1.jpg) no-repeat top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgba(9, 10, 35, 0.9);
+    color: white;
+}
+
+/*HEADER*/
+.bg-nav {
+    background-color: #090a23 !important;
+    transition: all 1s ease;
+}
+
+header .nav-link {
+    padding: 5px 12px !important;
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+header .nav-item:hover {
+    border-bottom: solid 3px #6A7BD3 !important;
+}
+
+header .active {
+    border-bottom: solid 3px #6A7BD3 !important;
+}
+
+header .active:hover {
+    border-bottom: none !important;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #090A23;
+    color: #E5E5E5;
+}
+
+footer a {
+    color: #E5E5E5;
+}
+
+footer a:hover {
+    color: #6A7BD3;
+}
+
+
+/* PÁGINA INICIO
+
+SECCION PRINCIPAL*/
+
+#principal {
+    height: 100vh;
+    width: 100%;
+    background: url(img/tormenta_sobre_ciudad.jpg) no-repeat top;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgba(9, 10, 35, 0.6);
+    color: white;
+}
+
+#principal img {
+    padding: 0px 0px 5px 0px !important;
+    border-bottom: 3px solid #6A7BD3;
+    width: 50% !important;
+}
+
+h1 {
+    font-size: 36px !important;
+    text-transform: uppercase;
+    padding: 15px 0px 0px 0px !important;
+    color: white !important;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 50px !important;
+    }
+
+    #principal div {
+        padding-left: 90px !important;
+    }
+
+    #principal img {
+        width: 40% !important;
+    }
+}
+
+/*SOBRE NOSOTROS*/
+
+h2 {
+    color: #30348B !important;
+    font-size: 26px !important;
+    margin-bottom: 15px !important;
+}
+
+#frase {
+    height: 50vh;
+    width: 100%;
+    background: url(img/relampago_cielo_1.jpg) no-repeat top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgba(9, 10, 35, 0.9);
+    color: white;
+}
+
+#frase p {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/*CARRUSEL*/
+
+.carousel-inner {
+    display: flex !important;
+}
+
+.carousel-item {
+    margin-right: 0 !important;
+    flex: 0 0 33, 3% !important;
+    display: block !important;
+}
+
+.carousel-inner {
+    padding: 1em 3em !important;
+}
+
+@media (min-width: 768px) {
+
+    .carousel-item {
+        margin-right: 0 !important;
+        flex: 0 0 20% !important;
+        display: block !important;
+    }
+
+    .carousel-inner {
+        padding: 1em !important;
+    }
+}
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #090a23 !important;
+    width: 4vh !important;
+    height: 4vh !important;
+    border-radius: 50% !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+
+/*INICIO SECCION PRODUCTOS*/
+
+.producto {
+    background-color: #E5E5E5;
+    padding: 40px !important;
+    margin: 30px 15px !important;
+}
+
+.img-productos {
+    width: 50%;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+h4 {
+    color: #30348B !important;
+    border-bottom: solid 1px #6D6E70;
+    padding-bottom: 15px;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.producto a,
+.servicio a {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #090A23 !important;
+}
+
+.producto a:hover,
+.servicio a:hover {
+    color: #6a7bd3 !important;
+}
+
+.fi-ss-arrow-circle-right {
+    color: #30348B;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+
+.fi-ss-arrow-circle-right:hover {
+    color: #6a7bd3;
+}
+
+/*INICIO SECCIÓN Servicios*/
+
+.servicio {
+    background-color: white;
+    padding: 40px 20px !important;
+    margin: 30px 10px !important;
+}
+
+.servicio h4 {
+    color: #090a23 !important;
+    margin-top: 30px !important;
+    font-size: 20px;
+}
+
+/*Contactanos*/
+
+#contactanos {
+    height: 50vh;
+    width: 100%;
+    background: url(img/relampago_cielo_2.jpg) no-repeat bottom;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgba(9, 10, 35, 0.9);
+    color: white;
+}
+
+h5 {
+    font-size: 32px !important;
+}
+
+#contactanos p {
+    font-size: 20px;
+}
+
+#contactanos button {
+    padding: 10px 35px;
+    background-color: #E5E5E5;
+    color: #090A23;
+    border: none !important;
+    font-weight: bold;
+}
+
+#contactanos button:hover {
+    background-color: #6A7BD3;
+}
+
+
+/*Contacto página*/
+
+
+#contacto h1 {
+    text-align: center;
+    text-transform: none !important;
+}
+
+main {
+    background-color: #E5E5E5;
+    padding: 60px 10% !important;
+}
+
+#ficha-contacto {
+    background-color: #221E1F;
+    color: white;
+    text-align: center;
+    padding: 30px 0px !important;
+}
+
+/*Form*/
+
+input,
+textarea {
+    display: block;
+    /*border*/
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom: 1px #221E1F solid;
+    background-color: #E5E5E5;
+    width: 100%;
+    margin-bottom: 15px !important;
+}
+
+textarea {
+    height: 120px;
+}
+
+form button {
+    background-color: #30348B;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+form button:hover {
+    background-color: #090A23;
+}
+
+.i-contacto {
+    width: 36px;
+    color: #6A7BD3;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+/*PÁGINA EXITO DE MENSAJE*/
+
+#exito {
+    height: 100vh;
+    width: 100%;
+    background-color: #6D6E70;
+}
+
+#exito img {
+    margin-top: 30px;
+    width: 20%;
+}
+
+/*PÁGINA SERVICIOS*/
+
+#s-pararrayos-soldadura {
+    background-color: #E5E5E5;
+}
+
+.img-servicios {
+    margin: 0px auto 30px !important;
+    display: block !important;
+}
+
+#s-pararrayos-soldadura p {
+    text-align: justify;
+}
+
+.btn-servicio {
+    border: 1px solid #30348B;
+    padding: 10px 25px;
+    background-color: white;
+    color: #30348B;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+
+.btn-servicio:hover {
+    background-color: #30348B;
+    color: white;
+}
+
+#div-soldaduras {
+    border: 1px solid #30348B;
+    margin: 20px auto !important;
+    text-align: justify;
+    width: 90%;
+}
+
+h6 {
+    color: #30348B !important;
+    font-size: 20px !important;
+}
+
+
+
+
+/*PÁGINA PRODUCTOS*/
+
+.ver-ficha {
+    color: #30348B;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    border-bottom: 1px solid #30348B;
+}
