@@ -178,7 +178,7 @@ h2 {
     display: flex;
     animation: scroll 10s linear infinite;
     -webkit-animation: scroll 10s linear infinite;
-    width: calc(180px * 54);
+    width: calc(180px * 126);
 }
 
 .slider .slide {
