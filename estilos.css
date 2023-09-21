@@ -176,8 +176,8 @@ h2 {
 
 .slider .slide-track {
     display: flex;
-    animation: scroll 10s linear infinite;
-    -webkit-animation: scroll 10s linear infinite;
+    animation: scroll 140s linear infinite;
+    -webkit-animation: scroll 140s linear infinite;
     width: calc(180px * 126);
 }
 
@@ -196,8 +196,8 @@ h2 {
         transform: translateX(0);
     }
     100% {
-        -webkit-transform: translateX(calc(-180px * 6));
-        transform: translateX(calc(-180px * 6));
+        -webkit-transform: translateX(calc(-180px * 120));
+        transform: translateX(calc(-180px * 120));
     }
 }
 
