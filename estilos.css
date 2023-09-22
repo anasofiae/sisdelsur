@@ -34,6 +34,10 @@ h3:hover {
     width: 60px !important;
 }
 
+.t-justificado{
+    text-align: justify;
+}
+
 /*Seccion principal de páginas de productos, servicios y contacto*/
 #sp-contacto,
 #sp-servicios,
