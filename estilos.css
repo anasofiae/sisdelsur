@@ -55,7 +55,6 @@ h3:hover {
 /*HEADER*/
 .bg-nav {
     background-color: #090a23 !important;
-    
 }
 
 #nav-logo {
@@ -205,45 +204,6 @@ h2 {
     }
 }
 
-/*
-
-.carousel-inner {
-    display: flex !important;
-}
-
-.carousel-item {
-    margin-right: 0 !important;
-    flex: 0 0 33.3% !important;
-    display: block !important;
-}
-
-.carousel-inner {
-    padding: 1em 3em !important;
-}
-
-@media (min-width: 768px) {
-
-    .carousel-item {
-        margin-right: 0 !important;
-        flex: 0 0 20% !important;
-        display: block !important;
-    }
-
-    .carousel-inner {
-        padding: 1em !important;
-    }
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    background-color: #090a23 !important;
-    width: 4vh !important;
-    height: 4vh !important;
-    border-radius: 50% !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-}*/
-
 /*INICIO SECCION PRODUCTOS*/
 
 .producto {
@@ -302,7 +262,7 @@ h4 {
     font-size: 20px;
 }
 
-/*Contactanos*/
+/*Contáctanos*/
 
 #contactanos {
     height: 50vh;
